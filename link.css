@@ -1,0 +1,44 @@
+body{
+    border: 2px solid;
+    border-style: dashed;
+    border-radius: 20px;
+    margin: 5px; 
+    padding: 8px;
+    h1{ border: 5px solid black;
+        border-style: dotted;
+    font-weight: bold;
+    font-size:  50px;
+    font-style:italic;
+    color: brown;
+    background-color: blanchedalmond;
+    
+}
+.aaa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+    color: #51ff00c1;
+    padding: 20px;
+
+}
+.ddd{font-family:Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 20px;
+
+}
+#bbb{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+text-align: center;
+background-color: blanchedalmond;
+color:  rgb(255, 0, 238);
+}
+.ccc{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.eee{
+    font-weight: bold;
+    text-align: right;
+    background-color: bisque;
+}}

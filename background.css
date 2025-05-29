@@ -1,0 +1,33 @@
+H1{
+    text-align: center;
+    
+}
+.aaa{
+    text-align: center;
+    color: aliceblue;
+    background-image: url(image\ copy\ 8.png);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bbb{
+    text-align: center;
+    color: antiquewhite;
+    background-image: url(image\ copy\ 9.png);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+.ccc{
+    text-align: center;
+    background-color: black;
+    color: bisque;
+    background-image: url(image\ copy\ 10.png);
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-attachment: scroll;
+}

@@ -1,0 +1,59 @@
+.home_tag{
+text-align: center;
+}
+.home_tag a{
+    color: black;
+    margin: 0 15px;
+}
+.bmw{
+    color: aliceblue;
+    background-color:lightcyan;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url(image\ copy\ 6.png);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}.img_bmw{
+    border-radius: 10px;
+    opacity: 1;
+}
+.bike
+{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color:floralwhite;
+    color: antiquewhite;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(image\ copy\ 10.png);
+    opacity: 0.8;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}.img_bike{
+    border-radius: 10px;
+opacity: 1;
+}
+.ios{
+    background-color:whitesmoke;
+    padding: 10px;
+    color: aliceblue;
+    margin: 5px;
+    border-radius: 10px;
+    background-image: url(image\ copy\ 11.png);
+    opacity: 0.9;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.image_ios{
+    border-radius: 30px;
+} .footer{
+    background-color:brown;
+    text-align: end;
+}

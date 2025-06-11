@@ -1,0 +1,55 @@
+body{
+    height: 5000px;
+}  
+.aaa{
+   background-color: tomato;
+    color: antiquewhite;
+    min-height: 500px;
+    min-width:  500px;
+   
+    
+    position: static;
+    top: 10px;
+    left: 10px;
+}
+.bbb{
+    background-color: aquamarine;
+    width: 200px;
+    height: 500px;
+    position: sticky;
+    top: 10px;
+    left: 10px;
+}
+.eee{
+    background-color: bisque;
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    overflow: auto;
+    top: 20px;
+    left:800px;
+   
+}
+.ddd{
+    background-color: blueviolet;
+    color: antiquewhite;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    background-image: url(image\ copy\ 2.png);
+    background-size: cover;
+
+}
+.fff{
+    background-color: red;
+    text-align: center;
+    
+    
+    position: relative;
+    top: 20px;
+    left: 550px;
+
+   height: 200px;
+   width: 200px;
+    overflow: auto;
+}

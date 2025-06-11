@@ -1,0 +1,22 @@
+body{
+    margin: 2px;
+
+}
+.container{ 
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.aa,.bb,.cc{
+    background-color: yellowgreen;
+    color: aliceblue;
+    border: 2px solid white;
+    background-image: url(image\ copy\ 8.png);
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+}

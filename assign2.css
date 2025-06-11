@@ -1,0 +1,23 @@
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(245, 245, 2);
+}
+th{
+    background-color:maroon;
+    color: white;
+    font-size: 20px;
+}
+td{
+    font-size: 20px;
+    text-align: center;
+}
+table{
+    font-size: 40px;
+    margin: auto;
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+}

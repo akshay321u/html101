@@ -1,5 +1,11 @@
 .aaa{text-align: center; border: 2px solid black;
     background-color:antiquewhite; }
+    @media screen and (max-width:800px){
+        .aaa{
+            background-color: aqua;
+        }
+        
+    }
   h1{
     font-weight: bold;
     
@@ -12,14 +18,18 @@
     background-color: cadetblue;
     
 }
+@media screen and (max-width:800px){
+    .ddd{
+        background-color: blueviolet;
+    }
+    
+}
 h1{text-align: center;
 
 
 }
 .www{text-align: center;}
-.uuu{
-    padding-left: 450px;
-}
+
     h2{
     text-align: center;
 }
@@ -36,6 +46,10 @@ h1{text-align: center;
     background-color: cornflowerblue;
     border-radius: 10px;
 }
+@media screen and (max-width:800px){
+    .akz{
+        background-color:greenyellow;
+    }}
 .kkk{
     text-align: center;
 }

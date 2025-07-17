@@ -1,0 +1,35 @@
+.basic-box{
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.fixed-box{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+     padding: 20px;
+}
+.responsive-column{
+     background-color:blueviolet;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+     padding: 20px;
+
+}
+.nested-inner{
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+     padding: 20px;
+}
+.align-box{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}

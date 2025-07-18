@@ -1,0 +1,49 @@
+body{
+    padding: 20px;
+    background-color: violet;
+}
+.auto-box{
+    background-color: bisque;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.fixed-box{
+    background-color: bisque;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.variable-box{
+    background-color: bisque;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.responsive-box{
+     background-color: bisque;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.stacked-box{
+     background-color: bisque;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.mix-box{
+     background-color: bisque;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}

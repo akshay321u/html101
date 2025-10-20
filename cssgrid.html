@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="cssgrid.css">
+</head>
+<body class="p-4">
+    <div class="label">1.three columns</div>
+    <div class="d-grid gap-4" style="grid-template-columns: 1fr 1fr 1fr;">
+        <div class="gridbox">column1</div>
+        <div class="gridbox">column2</div>
+        <div class="gridbox">column3</div>
+    </div>
+
+<div class="label">2.responsive columns</div>
+    <div class="d-grid gap-3" style="grid-template-columns: repeat(auto-fit,minmax(200px,1fr));">
+        <div class="gridbox">column1</div>
+        <div class="gridbox">column2</div>
+        <div class="gridbox">column3</div>
+    </div>
+
+<div class="label">3.wrapping</div>
+    <div class="d-grid gap-3" style="grid-template-columns: repeat(2,250px);">
+        <div class="gridbox">column1</div>
+        <div class="gridbox">column2</div>
+        <div class="gridbox">column3</div>
+        <div class="gridbox">column4</div>
+    </div>
+<div class="label">4.auto columns with flow</div>
+    <div class="d-grid gap-3" style="grid-template-columns: 100px; grid-auto-flow: column;">
+        <div class="gridbox">column1</div>
+        <div class="gridbox">column2</div>
+        <div class="gridbox">column3</div>
+        <div class="gridbox">column4</div>
+        <div class="gridbox">column5</div>
+        <div class="gridbox">column6</div>
+        <div class="gridbox">column7</div>
+        <div class="gridbox">column8</div>
+        <div class="gridbox">column9</div>
+        <div class="gridbox">column10</div>
+    </div>
+<div class="label">5.nesting</div>
+    <div class="d-grid gap-3" style="grid-template-columns: 1fr 1fr;">
+        <div class="gridbox">column1
+            <div class="d-grid gap-3 mt-2" style="grid-template-columns: 1fr 1fr ;">
+                <div class="gridbox text-white bg-danger">nested 1</div>
+                <div class="gridbox text-white bg-success">nested 2</div>
+            </div>
+        </div>
+    </div>
+<div class="label">6.no grid classes</div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem;">
+        <div class="gridbox">column1</div>
+        <div class="gridbox">column2</div>
+        <div class="gridbox">column3</div>
+    </div>
+<div class="label">7.columns & gaps</div>
+    <div class="d-grid " style="grid-template-columns: 150px 1fr ; column-gap: 2rem; row-gap: 2rem;">
+        <div class="gridbox">column1</div>
+        <div class="gridbox">column2</div>
+        <div class="gridbox">column3</div>
+        <div class="gridbox">column4</div>
+    </div>
+<div class="label">8.adding rows</div>
+    <div class="d-grid gap-3" style="grid-template-columns: 1fr 1fr ; grid-template-rows: 100px 100px;">
+        <div class="gridbox">column1</div>
+        <div class="gridbox">column2</div>
+        <div class="gridbox">column3</div>
+        <div class="gridbox">column4</div>  
+    </div>
+<div class="label">9.gaps</div>
+    <div class="d-grid" style="grid-template-columns: 1fr 1fr; column-gap: 0rem; row-gap: 0rem;">
+        <div class="gridbox">column1</div>
+        <div class="gridbox">column2</div>
+        <div class="gridbox">column3</div>
+        <div class="gridbox">column4</div>  
+    </div>
+</body>
+</html>

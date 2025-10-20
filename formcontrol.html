@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container  rounded shadow p-3 mt-4">
+<h2 class="text-success">1.FORM CONTROL</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">EMAIL</label>
+        <input type="email" class="form-control" placeholder="email">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">TEXTAREA</label>
+        <textarea class="form-control"></textarea>
+    </div>
+</form>
+<h2 class="text-success">SELECT</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">EMAIL</label>
+        <select class="form-select">
+            <option selected>zero</option>
+            <option value="1">one</option>
+            <option value="2">two</option>
+            <option value="3">three</option>
+        </select>
+    </div>
+</form>
+</div>
+<br>
+<hr>
+<div class="container  rounded shadow p-3 mt-4">
+<h2 class="text-success">2.FORM CONTROL SIZING</h2>
+<form>
+    <div>
+        <label class="form-label"></label>
+        <input type="email" class="form-control form-control-lg" placeholder="large">
+    </div>
+    <div>
+        <label class="form-label"></label>
+        <input type="email" class="form-control" placeholder="default">
+    </div>
+    <div>
+        <label class="form-label"></label>
+        <input class="form-control form-control-sm" placeholder="small"></input>
+    </div>
+</form>
+</div>
+<br>
+<hr>
+<div class="container  rounded shadow p-3 mt-4">
+<h2 class="text-success">3.DISABLED READONLY</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">EMAIL</label>
+        <input type="email" class="form-control" placeholder="email" disabled>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">password</label>
+        <input class="form-control" placeholder="password">
+    </div>
+</form>
+</div>
+<br>
+<hr>
+<div class="container  rounded shadow p-3 mt-4">
+<h2 class="text-success">4.READONLY</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">EMAIL</label>
+        <input type="email" class="form-control" placeholder="email" readonly>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">password</label>
+        <input class="form-control" placeholder="password">
+    </div>
+</form>
+</div>
+<br>
+<hr>
+<div class="container  rounded shadow p-3 mt-4">
+<h2 class="text-success">5.READONLY PLAINTEXT</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">EMAIL</label>
+        <input type="text" class="form-control-plaintext" value="akshy@123" readonly>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">password</label>
+        <input type="text" class="form-control" placeholder="password">
+    </div>
+</form>
+</div>
+<br>
+<hr>
+<div class="container  rounded shadow p-3 mt-4">
+<h2 class="text-success">6.FILE INPUT</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">FILE INPUT</label>
+        <input type="file" class="form-control" >
+    </div>
+    <div class="mb-3">
+        <label class="form-label">password</label>
+        <input class="form-control" type="file" >
+    </div>
+    <div class="mb-3">
+        <label class="form-label">password</label>
+        <input class="form-control" type="file" disabled >
+    </div>
+    <div class="mb-3">
+        <label class="form-label">FILE INPUT</label>
+        <input type="file" class="form-control form-control-lg" >
+    </div>
+</form>
+</div>
+<br>
+<hr>
+<div class="container  rounded shadow p-3 mt-4">
+<h2 class="text-success">7.COLOR</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">choose color</label>
+        <input type="color" class="form-control-color">
+    </div>
+</form>
+</div>
+<br>
+<hr>
+<div class="container  rounded shadow p-3 mt-4">
+<h2 class="text-success">8.DATALISTS</h2>
+<form>
+<label for="exampleDataList" class="form-label">Datalist example</label>
+<input class="form-control" list="cities" id="exampleDataList" placeholder="Type to search...">
+<datalist id="cities">
+  <option value="San Francisco">
+  <option value="New York">
+  <option value="Seattle">
+  <option value="Los Angeles">
+  <option value="Chicago">
+</datalist>
+</form>
+</div>
+<br>
+<hr>
+<div class="container rounded shadow p-3 mt-4">
+<div class="mb-3">
+  <label for="formFile" class="form-label">Default file input example</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
+<div class="mb-3">
+  <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+  <input class="form-control" type="file" id="formFileMultiple" multiple>
+</div>
+<div class="mb-3">
+  <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+  <input class="form-control" type="file" id="formFileDisabled" disabled>
+</div>
+<div class="mb-3">
+  <label for="formFileSm" class="form-label">Small file input example</label>
+  <input class="form-control form-control-sm" id="formFileSm" type="file">
+</div>
+<div>
+  <label for="formFileLg" class="form-label">Large file input example</label>
+  <input class="form-control form-control-lg" id="formFileLg" type="file">
+</div>
+</div>
+</body>
+</html>

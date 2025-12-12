@@ -1,3 +1,7 @@
+body{
+    margin-left: 300px;
+    margin-top: 100px;
+}
 #display {
     width: 240px;
     height: 100px;

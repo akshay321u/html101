@@ -60,7 +60,7 @@ li {
 
 li button {
     position: absolute;
-    margin-right: 200px;
+    margin-right: 420px;
     right: 0;
     height: 45px;
     width: 65px;
@@ -71,6 +71,7 @@ li button {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+
 }
 
 button:hover {

@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+}
+.plant1{
+    text-align: end;
+    float: right;
+    margin-top: -300px;
+    height: 609.6513671875px;
+    width: 800px;
+}
+.main_1{
+    margin: 0px;
+}
+.fff{
+    background-color:rgb(250, 250, 250);
+    height: 300px;
+}
+.fff p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.35px;
+    padding: 30px 14px;
+    margin: 0px;
+}
+button{ 
+    border-radius: 27.18px;
+    color: white;
+    background-color: black;
+    width: 127px;;
+    height: 37.38580322265625px;
+    padding: 10.19px 19.17px;
+}
+.ff{
+    margin-top: 30px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+}
+.side_1{
+    margin-top: -400px;
+    font-size: 30px;
+    width: 600px;
+    padding-left: 12px;
+}
+.side_2{
+    padding-left: 12px;
+}
+.ed{
+    display: flex;
+    gap: 16rem;
+    width: 1200px;
+    padding: 10px 12px;
+}
+.ed_1{
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    font-size: 900;
+}
+.ed_2{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.eee{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    display: flex;
+    gap: 50px;
+    font-size: xx-large;
+    color: grey;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.plant2{
+    margin-top: 50px;
+    width: 1175px;
+    padding-left: 30px;
+}
+.nav{
+    display: flex;
+    justify-content:space-between ;
+}
+.title{
+    padding:15px;
+}
+.nav1{
+    display: flex;
+  
+}
+.nav a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+}
+.aaa{
+    padding: 10px;
+}
+p{
+
+    font-weight: lighter;
+}
+.bbb{
+    padding-left: 30px;
+    display: flex;
+    gap: 100px;
+}
+.ccc{
+    display: flex;
+    gap: 10px;
+    padding-left: 500px;
+}
+.grey{
+    width: 1415px;
+    height: 400px;
+    background-color: #ededed;
+    padding-left: 80px;
+    margin: -250px;
+}
+.gray h2{
+    display: flex;
+    text-align: center;
+    margin-top: 180px;
+    
+}
+.gray{
+    display: flex;
+    justify-content: space-around;
+}
+.gray img{
+    margin-top: 150px;
+}
+.plants3{display: flex;
+    height: 500px;
+    width: 400px;
+    gap: 50px;
+}
+.price{
+    display: flex;
+    gap: 120px;
+}
+.rev{
+    padding-left: 30px;
+}
+.xxx {
+    display: flex;
+   
+    gap: 120px;
+    padding-left: 30px;
+}
+.yyy{
+    display: flex;
+    gap: 20px;
+}
+.ggg{
+    text-align: center;
+}
+.ooo{
+    display: flex;
+    gap: 80px;
+   
+   padding-left: 50px;
+}
+.rrr img{
+    width: 1245px;
+    height: 950px;
+    padding-left: 5px;
+}
+.footer{
+    background-color: gainsboro;
+    display: flex;
+  justify-content: space-between;
+    height: 100px;
+    
+}
+.footer1{
+    padding:30px
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+    padding-top: 30px;
+}
+.footerimg{
+    padding-top: 30px;
+}
+.email{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-top: -100px;
+    font-size: larger;
+}
+.subscribe{
+      border-bottom: 2px solid #999;
+    display: flex;
+    float: right;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    padding-bottom: -550px;
+    padding-right: 20px;
+    margin-top: -10px;
+    max-width: 400px;
+    width: 100%;
+
+}
+.subscribe input[type="email"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding-right: 40px;
+
+}
+
+.amg{
+    height: 400px;
+}
+
